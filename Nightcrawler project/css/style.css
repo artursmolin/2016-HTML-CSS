@@ -1,0 +1,146 @@
+html,body {
+	margin: 0 auto;
+	max-width: 1980px;
+    min-height: 100%;
+}
+
+#header {
+	background-image:url("../images/2.jpg");
+	background-size: cover;
+	height: 150px;
+	max-width: 1980px auto;
+	box-shadow: 0px 0px 10px #949494;
+	border-bottom: 15px solid #FFF0F0;
+	border-top: 15px solid #FFF0F0;
+
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Faster One', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 3px 3px black;
+	
+}
+
+h2 {
+	font-family: 'Faster One', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 3px 3px black;
+	text-align: center;
+	margin-top: -20px;
+}
+
+#mainp {
+	text-align: center;
+	margin-top: -130px;
+	font-family: 'Faster One', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 3px 3px black;
+	font-size: 30px;
+
+}
+
+#footp {
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Faster One', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 3px 3px black;
+	font-size: 30px;
+
+}
+
+#shop {
+	background-image:url("../images/4.jpg");
+	height: 380px;
+	background-position: center center;
+	background-size: cover;
+	border: 15px solid #F89EBF;
+	box-shadow: 0px 30px 50px #000000;
+
+}
+
+#shop:hover, #shop:focus  {
+	background-size: 110%;
+	background-position: center center;
+}
+
+
+#blog:hover, #blog:focus {
+	background-size: 110%;
+	background-position: left center;
+}
+
+#videos:hover, #videos:focus {
+	background-size: 150%;
+	background-position: bottom center;
+}
+#blog {
+	background-image:url("../images/42.jpg");
+	height: 500px;
+	background-position: center center;
+	background-size: cover;
+	border: 15px solid #FAB2BE;
+}
+
+#videos {
+	background-image:url("../images/555.jpg");
+	background-position: center center;
+	height: 380px;
+	background-size: cover;
+	border: 15px solid #FED3DB;
+}
+
+#content {
+	background-image: url("../images/vhs.jpg");
+	background-size: cover;
+	height: 100% auto;
+	background-position: center center;
+	padding: 40px 40px;
+}
+
+#shopp,#blogp,#videosp {
+	text-align: center;
+	padding-bottom: 100px;
+	font-family: 'Faster One', cursive;
+	color: #FFFFFF;
+	text-shadow: 10px 3px 3px black;
+	font-size: 30px;
+
+}
+
+
+
+@media (max-width: 750px) {
+	h1 {
+		font-size: 40px;
+		padding-top: 10px;
+	}
+	#mainp,h2,#footp {
+		font-size: 26px;
+		padding-top: 10px;
+	}	
+	#shopp,#blogp,#videosp{
+		font-size: 26px;
+	}
+
+}
+
+@media (max-width: 550px){
+	h1,h2,#footp {
+		font-size: 24px;
+		padding-top: 0px;
+	}
+	#mainp {
+		font-size: 20px;
+		padding-top: 30px;
+	}
+
+	#shopp,#blogp,#videosp{
+		font-size: 34px;
+	}
+}
+}
