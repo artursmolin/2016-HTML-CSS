@@ -161,10 +161,10 @@ footer {
 
 /*<----------------MEDIA(ADAPTIVE MOBILE)----------->*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 	li {
 		font-size: 10px;
-		padding: 0;}
+	}
 	.hidden360 {
 		visibility: hidden;
 	}
