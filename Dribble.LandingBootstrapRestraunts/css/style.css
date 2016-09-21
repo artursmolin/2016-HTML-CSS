@@ -6,18 +6,18 @@ html,body {
 	}
 
 /* LOGOS */
-.logo { 
+.black-logo { 
 	float: left 
 }
 
-.logofoot {
+.logo-footer {
 	color: #FFFFFF;
 	font-size: 12px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
 }
 
-.lgcenter {
+.black-logo-xs {
 	float: right;
 	width: 100px;
 }
@@ -25,32 +25,33 @@ html,body {
 /*END*/
 
 /*ALL Navigation*/
-.nav-link{
+.navigation-top-link{
 	float: left;
 	color: black;
 	text-transform: uppercase;
 	margin-top: 30px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
+	padding: 0 5px;
 }
 
-.nav-link img {
+.navigation-top-link img {
 	height: 20px;
 }
 
-.nav-link:hover,.nav-link:focus {
+.navigation-top-link:hover,.navigation-top-link:focus {
 	color: #757575;
 }
 
 
-.navfoot-link{
+.navigation-footer-link{
 	color: #EAE9E9;
 	font-family: 'Hind', sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 }
 
-.navfoot-link:hover,.navfoot-link:focus {
+.navigation-footer-link:hover,.navigation-footer-link:focus {
 	color: #757575;
 	text-decoration: none;
 }
@@ -59,44 +60,46 @@ li {
 	list-style-type: none;
 }
 
+
+
 /*END*/
 
 
 /* ROWS, CONTAINERS, COLUMNS */
 .col-lg-12 {
-	background-image: url('../images/img1.jpg');
+	background-image: url('../images/col12.jpg');
 	background-size: cover;
 	background-position: center center;
 	margin-bottom: 20px;
 	height: 700px;
 }
 
-.colright1,.colright2,.colleft1,.colleft2{
+.bar-block,.cookies-block,.jazz-block,.food-block{
 	background-size: cover;
 	height: 300px;
 	padding-top: 70px;
 	margin-bottom: 20px;
 } 
 
-.colright1:hover,.colright2:hover,.colleft1:hover,.colleft2:hover {
+.bar-block:hover,.cookies-block:hover,.jazz-block:hover,.food-block:hover {
 	border: 5px solid #B1B1B1;
 }
 
-.colleft1 {
-	background-image: url("../images/bar.jpg");
+.bar-block {
+	background-image: url("../images/bar-block.jpg");
 }
 
-.colright1 {
-	background-image: url("../images/bread.jpg");
+.cookies-block {
+	background-image: url("../images/cookies-block.jpg");
 }
-.colright2 {
-	background-image: url("../images/jazz.jpg");
+.jazz-block {
+	background-image: url("../images/jazz-block.jpg");
 }
-.colleft2 {
-	background-image: url("../images/food.jpg");
+.food-block {
+	background-image: url("../images/food-block.jpg");
 }
 
-#paddingoff {
+#padding-off {
 	padding: 0;
 }
 
