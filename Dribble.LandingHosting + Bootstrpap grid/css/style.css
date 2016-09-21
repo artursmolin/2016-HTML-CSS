@@ -1,6 +1,6 @@
 html,body {
 	margin: 0 auto;
-	background-image: url("../images/karta.jpg");
+	background-image: url("../images/background.jpg");
 	background-size: cover;
 	min-height: 100%;
     height:auto !important; 
@@ -18,7 +18,7 @@ header {
 	margin-top: -10px;
 }
 
-.header2 {
+.header-container {
 	background:#383737;
 	height: 40px;
 	background-size: cover;
@@ -31,22 +31,27 @@ header {
 
 /*<-----------------------------Navigations(Header,Container,Footer) + button----------------------->*/
 
-.firstnav li,.secondnav li {
+.navigation-top li,.navigation-container li,.navigation-footer li {
 	float: left;
 	padding:10px;
 	list-style-type: none;
 	opacity: 1;
 	text-transform: uppercase;
+
 }
 
-.firstnav li:last-child,.secondnav li:last-child{
+.navigation-top li:last-child,.navigation-container li:last-child,.navigation-footer li:last-child{
 	float: right;
 	margin-right: 30px;
-	color: #9F9E9E;
+	color: #FFFFFF;
 }
 
-.firstnav li:hover,.secondnav li:hover{
+.navigation-top li:hover,.navigation-container li:hover,.navigation-footer li:hover{
 	background-color: #EAE7E7;
+
+}
+.navigation-top a, .navigation-container a,.navigation-footer a {
+	color: #FFFFFF;
 }
 
 ul li a:hover, ul li a:focus {
@@ -89,7 +94,7 @@ button a,ul li a {
 .container-fluid {
 	margin: 50px 50px 0 50px;
 	padding: 0;
-	background-image: url("../images/karta2.jpg");
+	background-image: url("../images/background-container.jpg");
 	overflow:hidden;
 	border-radius: 10px;
 	  min-height: 100%;
@@ -103,7 +108,7 @@ button a,ul li a {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-#deformcol {
+#centralcolumn {
 	margin-top: -70px;
 	padding-top: 30px;
 }
@@ -121,24 +126,22 @@ button a,ul li a {
 
 #maintext {
 	padding-top: 100px;
-	color:#777094;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30px;
 }
 
 #maintextxs {
 	padding-top: 100px;
-	color:#777094;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 }
 
-#maintext span {
+#maintext span,#maintextxs span {
 	color: #D1533A;
 }
 
-#maintextxs span {
-	color: #D1533A;
+.row p,h3,#maintext,#maintextxs {
+	color: #BABABA;
 }
 
 /*<----------------END----------->*/
