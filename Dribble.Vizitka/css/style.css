@@ -6,6 +6,7 @@ body,html {
 	height: auto;
 }
 
+/* BOX*/
 #box {
 	border-radius: 10px;
 	background: #FFFFFF;
@@ -21,16 +22,19 @@ img {
 	border-top-left-radius: 10px;
 	display: inline;	
 }
+/* END */
+
+/* TEXT */
 
 #h11 {
 	margin:10px 0 0 30px ;
-
 	font-family: 'Merriweather', serif;
 	font-weight: normal;
 	font-size: 30px;
 	color: #8E8E8E;
 
 }
+
 span {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
@@ -38,9 +42,6 @@ span {
 	color: #8E8E8E;
 	text-align: justify;
 	padding-right: 30px;
-
-
-
 }
 
 p {
@@ -51,6 +52,16 @@ p {
 	font-family:  'Quicksand', sans-serif;
 }
 
+
+#price {
+	margin-top: -10px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+/* END */
+
+/* BUTTON*/
 
 button {
 	float: right;
@@ -81,13 +92,10 @@ button:hover {
   text-decoration: none;
 }
 
+/* END */
 
-#price {
-	margin-top: -10px;
-	font-size: 24px;
-	font-weight: bold;
-	font-family: 'Merriweather', serif;
-}
+/* MEDIA ADAPTIVE */
+
 @media screen and (max-width: 1366px){
 	#text {
 		font-size: 24px;
