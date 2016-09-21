@@ -1,0 +1,118 @@
+$primarycolor:#FFFFFF;
+$secondarycolor:#f7fafd;
+$h2color:#48B343;
+$pcolor:#9E9D9D;
+$primaryblue:#3E65F6;
+$button:#d6e4f2;
+$font:'Titillium Web', sans-serif;
+
+html,body {
+	margin:0 auto;
+	font-family:$font;
+}
+
+header {
+	background-image:url('../images/background-image.jpg');
+	background-size:cover;
+	height:680px;
+}
+
+.navigation-top {
+	border-bottom:1px solid $pcolor;
+	padding:25px 0;
+	height:100px;
+}
+.navigation-top li:first-child {
+	float:left;
+	img {
+			height:70px;
+			margin-top:-30px;
+	}
+}
+
+.navigation-top li {
+	float:right;
+	padding:0 20px;
+	list-style-type:none;
+	margin-top:20px;
+}
+
+.header-content {
+	margin:200px 0 0 300px;
+	font-family:$font;
+}
+
+h1 {
+	color:$secondarycolor;
+}
+
+.header-text {
+	color:$pcolor;
+}
+
+.create-wallet {
+	border-radius:20px;
+	background-color:$primaryblue;
+	border:0px;
+}
+
+.create-account {
+	border-radius:20px;
+	background-color:#646464;
+	border:0px;
+	opacity:0.8;
+	margin-top:-5px;
+}
+
+.first-blue-block {
+	background-color:$secondarycolor;
+	height:150px;
+	padding:50px 0px;
+}
+
+.third-section {
+	background-color:$secondarycolor;
+	height:600px;
+	padding:40px 0px;
+}
+
+.second-section,.fourth-section {
+	background-color:#FFFFFF;
+    	height:600px;
+	padding:40px 0px;
+}
+
+.second-section span {
+	color:$primaryblue;
+}
+
+h2 {
+	margin-top:150px;
+	color:$h2color;
+}
+
+.apple-store,.play-store,.find-out {
+	border-radius:20px;
+	background-color:$button;
+	border:0px;
+	padding:10px;
+	color:$primaryblue;
+	font-weight:bold;
+	margin:10px 10px 10px 0;
+	img {
+		height:20px;
+	}
+}
+
+.play-store {
+	opacity:0.6;
+}
+
+.find-out {
+	float:right;
+	margin-right:50px;
+}
+
+
+
+
