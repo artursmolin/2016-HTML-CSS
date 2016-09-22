@@ -9,6 +9,7 @@ $font:'Titillium Web', sans-serif;
 html,body {
 	margin:0 auto;
 	font-family:$font;
+	
 }
 
 header {
@@ -38,22 +39,24 @@ header {
 }
 
 .header-content {
-	margin:200px 0 0 300px;
 	font-family:$font;
 }
 
 h1 {
+	margin:200px 0 0 300px;
 	color:$secondarycolor;
 }
 
 .header-text {
 	color:$pcolor;
+	margin:0 0 0 300px;
 }
 
 .create-wallet {
 	border-radius:20px;
 	background-color:$primaryblue;
 	border:0px;
+	margin:10px 0 0 300px;
 }
 
 .create-account {
@@ -91,7 +94,21 @@ h2 {
 	color:$h2color;
 }
 
-.apple-store,.play-store,.find-out {
+h3 {
+	color:$h2color;
+	text-transform:capitalize;
+	.get-wallet {
+	font-size:20px;
+	margin-left:10px;
+	background-color:#A0CBA8;
+	color:#568431;
+	border:0px;
+	border-radius:20px;
+
+	}
+}
+
+.apple-store,.play-store,.find-out, .find-out-second{
 	border-radius:20px;
 	background-color:$button;
 	border:0px;
@@ -110,9 +127,18 @@ h2 {
 
 .find-out {
 	float:right;
-	margin-right:50px;
+	margin-right:45px;
 }
 
+.logo-blue {
+	margin-top:10px;
+	height:80px;
+}
 
+.icon {
+	height:20px;
+}
 
-
+ul li {
+	list-style-type:none;
+}

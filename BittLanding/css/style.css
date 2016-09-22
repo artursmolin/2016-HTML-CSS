@@ -25,19 +25,21 @@ header {
   margin-top: 20px; }
 
 .header-content {
-  margin: 200px 0 0 300px;
   font-family: "Titillium Web", sans-serif; }
 
 h1 {
+  margin: 200px 0 0 300px;
   color: #f7fafd; }
 
 .header-text {
-  color: #9E9D9D; }
+  color: #9E9D9D;
+  margin: 0 0 0 300px; }
 
 .create-wallet {
   border-radius: 20px;
   background-color: #3E65F6;
-  border: 0px; }
+  border: 0px;
+  margin: 10px 0 0 300px; }
 
 .create-account {
   border-radius: 20px;
@@ -68,7 +70,18 @@ h2 {
   margin-top: 150px;
   color: #48B343; }
 
-.apple-store, .play-store, .find-out {
+h3 {
+  color: #48B343;
+  text-transform: capitalize; }
+  h3 .get-wallet {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #A0CBA8;
+    color: #568431;
+    border: 0px;
+    border-radius: 20px; }
+
+.apple-store, .play-store, .find-out, .find-out-second {
   border-radius: 20px;
   background-color: #d6e4f2;
   border: 0px;
@@ -76,7 +89,7 @@ h2 {
   color: #3E65F6;
   font-weight: bold;
   margin: 10px 10px 10px 0; }
-  .apple-store img, .play-store img, .find-out img {
+  .apple-store img, .play-store img, .find-out img, .find-out-second img {
     height: 20px; }
 
 .play-store {
@@ -84,6 +97,16 @@ h2 {
 
 .find-out {
   float: right;
-  margin-right: 50px; }
+  margin-right: 45px; }
+
+.logo-blue {
+  margin-top: 10px;
+  height: 80px; }
+
+.icon {
+  height: 20px; }
+
+ul li {
+  list-style-type: none; }
 
 /*# sourceMappingURL=style.css.map */
